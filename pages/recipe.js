@@ -1,16 +1,9 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import TopicCuration from '@/components/TopicCuration'
 import config from '@/config'
-import Map from '@/components/Map'
-import Contact from '@/components/Contact'
-import Masthead from '@/components/Masthead'
-import Banner from '@/components/Banner'
-
-const inter = Inter({ subsets: ['latin'] })
+import Sidebar from '@/components/Sidebar'
 
 export default function Home() {
   return (
@@ -23,11 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Header />
-        <Masthead />
-        <TopicCuration />
-        <Banner />
-        <Map />
-        <Contact />
+        <Sidebar />
         <Footer />
       </main>
     </>
