@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import config from '@/config'
 import Sidebar from '@/components/Sidebar'
 
-export default function Home() {
+export default function Article() {
   return (
     <>
       <Head>

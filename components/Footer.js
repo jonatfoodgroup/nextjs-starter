@@ -5,7 +5,6 @@ import Nav from "./Nav";
 const Footer = () => {
   return (
     <footer>
-      <p>Footer</p>
       <Logo />
       <Nav />
     </footer>
